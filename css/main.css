@@ -76,7 +76,7 @@ main {
     line-height: var(--body-highlight-line-height);
     color: var(--dark-blue);
     text-align: center;
-    margin-bottom: 2.125rem ;
+    margin-bottom: 1rem ;
     padding-inline: 2rem;
 }
 
