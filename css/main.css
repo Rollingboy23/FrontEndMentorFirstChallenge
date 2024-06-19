@@ -38,7 +38,7 @@ body {
     font-weight: var(--body-font-weight);
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
-    color: var(--light-grey);
+    color: var(--grayish-blue);
     
 }
 
@@ -71,10 +71,13 @@ main {
     margin-bottom: 1.5rem;
 }
 .card__title {
+    font-weight: var(--body-highlight-font-weight);
+    font-size: var(--body-highlight-font-size);
+    line-height: var(--body-highlight-line-height);
     color: var(--dark-blue);
-   text-align: center;
-   margin-bottom: 2.125rem ;
-   padding-inline: 2rem;
+    text-align: center;
+    margin-bottom: 2.125rem ;
+    padding-inline: 2rem;
 }
 
 .card__text {
@@ -82,11 +85,5 @@ main {
    padding-inline: 2rem;
 }
 
-@media (max-width: 375px) {
-    .card__title {
-        font-weight: var(--body-highlight-font-weight);
-        font-size: var(--body-highlight-font-size);
-        line-height: var(--body-highlight-line-height);
-    }
-    
-}
+
+
